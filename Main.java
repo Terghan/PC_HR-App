@@ -1,5 +1,6 @@
 public class Main {
 	public static void main(String[] args) {
+
 		// Person class tests
 		Person new1 = new Person("John Smith", 45);
 		new1.displayDetails();
@@ -29,6 +30,7 @@ public class Main {
 		
 		new2.displayDetails();
 		System.out.println();
+		
 		// HardSkill class tests
 		job new3 = new job("Software Developer", 4);
 		new3.displayDetails();
