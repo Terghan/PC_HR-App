@@ -11,24 +11,24 @@ public class Person {
 	}
 	// name variable setter method.
 	public void setName(String n) {
-		name = n;
+		this.name = n;
 	}
 	// age variable setter method.
 	public void setAge(int a) {
-		age = a;
+		this.age = a;
 	}
 	// name variable getter method.
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	// age variable getter method.
 	public int getAge() {
-		return age;
+		return this.age;
 	}
 	// Method to display person object details.
 	public void displayDetails() {
 		System.out.println("--- Person Details --- ");
-		System.out.println("Name: " + name);
-		System.out.println("Age: " + age);
+		System.out.println("Name: " + this.name);
+		System.out.println("Age: " + this.age);
 	}
 }
