@@ -1,0 +1,145 @@
+
+
+User Class
+
+//variables
+UID Int
+userName String
+password String
+
+//methods
+logInOut()
+
+
+Employee Class
+//variables
+EMPID Int
+firstName String
+lastName String
+streetAddr String
+city String
+state String
+zip Int
+phone String
+eMail String
+currJobID Int
+cjStartDate date
+pastJobs arrObj
+[{int Jid, date Start, date End}]
+evalsTaken arrint
+
+//methods
+all in other classes
+
+
+Manager Class
+//variables
+MID Int
+title String
+startDate date
+teamsManagedID Int
+
+//methods 
+manageEvals()
+manageTeams()
+manageJobs()
+manageSkills()
+manageProjects()
+manageEmployees()
+
+Job Class
+//variables
+JID Int
+title String
+skills arrObj
+[{int SID, int skillLevel, int ReqOpt}]
+
+//methods
+all in get/set and CRUD classes
+
+
+Evaluation Class
+//variables
+EID int 
+evalType String
+
+//methods
+getQuestions()
+saveAnswers()
+saveEval()
+
+Questions Class-- move to evaluation class
+//variables
+QID int 
+evalType String
+questionType String
+questionText String
+answerOptions arrStrings
+
+//methods
+all in different classes
+
+Teams Class
+//variables
+TID int
+type String
+jobsIDs arrInt
+reqSkills arrObj
+[{int SID, int Level}]
+curProjectID int
+pastPorjects arrInt
+
+//methods
+all in different classes
+
+Projects Class
+PID int
+name String
+startDate dateTime
+endDate dateTime
+status String
+teamIDs arrInt
+experienceReq() Int
+
+//methods
+all variables in set/get and CRUD classes
+experienceReq()
+
+Skills Class
+
+//variables
+SID int
+type String
+(Hard, Soft, GiftTalent)
+skillDescription String
+
+//methods
+addUpDelSkill()
+addUpDelSkills()?
+
+
+
+
+
+
+
+
+
+
+Helper Class: //ELIMINATED!!!!!
+
+Get/Set Interface //for all classes
+setVariables()
+getVariables()
+
+
+CRUD Interface
+addUpDelUser()
+addUPDelEval()
+addUpDelEmp()
+addUpDelQuest()
+addUpDelTeam()
+addUpDelMgr()
+addUpDelSkills()
+addUpDelJob()
+addUpDelSkill()
