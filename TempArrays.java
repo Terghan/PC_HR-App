@@ -1,5 +1,5 @@
 // Temporary arrays for data storage
 
-public class TempArrays {
-
+public class tempArrays {
+    
 }
