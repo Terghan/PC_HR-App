@@ -1,5 +1,5 @@
 public class job {
-    //variables
+    private int JobID;
     private String title;
     private int experience;
 
