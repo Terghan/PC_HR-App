@@ -4,17 +4,12 @@ public class job {
     private int experience;
 
 
-  //constructors
-    
-
   public job(String title, int experience) {
       this.title = title;
       this.experience = experience;
   }
 
-  // Methods
-   
-   
+  
   // Setter for job title
   public void setTitle(String title) {
       this.title = title;
